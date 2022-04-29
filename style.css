@@ -31,19 +31,15 @@ a {
 }
 
 a:hover {
-	color: #c0e5c8ff;
-}
-
-.bi {
-	border: 2px solid rgba(255, 255, 255, .7);
+	color: #C2B2FF;
 }
 
 .primary-color-border {
-	border: 2px solid rgba(192, 229, 200, 1);
+	border: 2px solid #C2B3FF;
 }
 
 .primary-color-background {
-	background-color: rgba(192, 229, 200, 1);
+	background-color: #C2B3FF;
 }
 
 .navbar {
@@ -53,31 +49,32 @@ a:hover {
 }
 
 .nav-link a:hover {
-	color: rgba(192, 229, 200, 1);
+	color: C2B2FF;
 }
 
 .btn {
 	color: white;
-	border: solid 2px rgba(192, 229, 200, 1);
+	border: solid 2px #C2B3FF;
 	transition: all ease 850ms;
 	font-weight: 500;
 }
 
 .btn-primary {
 	color: black;
+	background: #C2B3FF;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-	border: solid 2px rgba(192, 229, 200, 1);
+	border: solid 2px #C2B3FF;
 	background: transparent;
 	color: white;
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:focus {
-	border: solid 2px rgba(192, 229, 200, 1);
-	background-color: rgba(192, 229, 200, 1);
+	border: solid 2px #C2B3FF;
+	background-color: #C2B3FF;
 	color: black;
 
 }
@@ -104,7 +101,7 @@ a:hover {
 }
 
 .card {
-	border: solid 2px rgba(192, 229, 200, 0.7);
+	border: solid 2px #C2B3FF;
 	max-width: 20em;
 }
 
@@ -116,7 +113,7 @@ a:hover {
 }
 
 .testimonial-card p {
-	max-width: 50ch;
+	max-width: 30ch;
 }
 
 .form-control {

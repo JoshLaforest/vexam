@@ -1,0 +1,127 @@
+@font-face {
+	font-family: Gameplay;
+	src: url(Gameplay.woff);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Code Pro', monospace;
+	background: #060E08;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+h1 {
+	text-shadow: .1em .1em 0 rgba(0, 0, 0, 1.0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Gameplay', monospace;
+}
+
+a {
+	color: rgba(255, 255, 255, 0.55);
+	transition: all ease 850ms;
+}
+
+a:hover {
+	color: #c0e5c8ff;
+}
+
+.bi {
+	border: 2px solid rgba(255, 255, 255, .7);
+}
+
+.primary-color-border {
+	border: 2px solid rgba(192, 229, 200, 1);
+}
+
+.primary-color-background {
+	background-color: rgba(192, 229, 200, 1);
+}
+
+.navbar {
+  position: sticky;
+  top: 1em;
+  z-index: 2;
+}
+
+.nav-link a:hover {
+	color: rgba(192, 229, 200, 1);
+}
+
+.btn {
+	color: white;
+	border: solid 2px rgba(192, 229, 200, 1);
+	transition: all ease 850ms;
+	font-weight: 500;
+}
+
+.btn-primary {
+	color: black;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+	border: solid 2px rgba(192, 229, 200, 1);
+	background: transparent;
+	color: white;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+	border: solid 2px rgba(192, 229, 200, 1);
+	background-color: rgba(192, 229, 200, 1);
+	color: black;
+
+}
+
+#hero {
+	background: url(images/header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.carousel-caption {
+	background: rgba(0, 0, 0, .3);
+	border-radius: .3em;
+}
+
+.avatar-image {
+	max-width: 18.75em;
+	max-height: 18.75em;
+	object-fit: cover;
+}
+
+.card {
+	border: solid 2px rgba(192, 229, 200, 0.7);
+	max-width: 20em;
+}
+
+.testimonial-card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 1em;
+}
+
+.testimonial-card p {
+	max-width: 50ch;
+}
+
+.form-control {
+	color: white;
+}
+
+.row p {
+	max-width: 65ch;
+}

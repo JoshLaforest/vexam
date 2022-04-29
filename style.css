@@ -1,6 +1,7 @@
 @font-face {
 	font-family: Gameplay;
 	src: url(Gameplay.woff);
+	font-display: swap;
 }
 
 body {

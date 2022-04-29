@@ -115,3 +115,11 @@ a:hover {
 .testimonial-card p {
 	max-width: 30ch;
 }
+
+footer a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
